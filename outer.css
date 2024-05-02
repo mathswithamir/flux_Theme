@@ -1,0 +1,515 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+}
+
+.one {
+    height: 90px;
+    width: 100%;
+    background: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+}
+
+.sec {
+    position: absolute;
+    height: 30%;
+    width: 7%;
+    top: 35%;
+    left: 2%;
+    z-index: 10;
+}
+
+.uls ul {
+    height: 50px;
+    width: 40%;
+    position: absolute;
+    left: 45%;
+    top: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+/* .uls>ul>li {
+    list-style: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+} */
+.btn {
+    position: absolute;
+    left: 90%;
+    top: 10px;
+    height: 65px;
+    width: 7%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(99, 146, 5);
+    color: white;
+    border-radius: 10%;
+    border-style: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.thre {
+    float: left;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+
+}
+
+.fort {
+    float: left;
+    position: absolute;
+    top: 12%;
+    left: 38%;
+}
+
+.fif {
+    float: left;
+    position: absolute;
+    top: 12%;
+    left: 60%;
+}
+
+.six {
+    float: left;
+    position: absolute;
+    top: 12%;
+    left: 80%;
+}
+
+.seve {
+    float: right;
+}
+
+.eig {
+    position: relative;
+    height: 750px;
+    width: 100%;
+    background-image: url(./images/pic1.jpg);
+    background-attachment: fixed;
+}
+
+.nin {
+    height: 110%;
+    width: 45%;
+    float: right;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+
+#one {
+    color: gray;
+    font-size: 30px;
+    margin-left: 20%;
+    /* padding-top: 1px; */
+}
+
+.eig h1 {
+    position: absolute;
+    font-size: 45px;
+    margin-top: 25vh;
+    margin-left: 13vh;
+    color: rgb(159, 159, 159);
+}
+
+.eig h2 {
+    position: absolute;
+    font-size: 60px;
+    margin-top: 35vh;
+    margin-left: 13vh;
+}
+
+* {
+    /* border: 1px solid #000; */
+}
+
+.eig>button {
+    height: 65px;
+    width: 160px;
+    color: white;
+    background-color: rgb(99, 146, 5);
+    float: left;
+    margin-top: 97vh;
+    position: relative;
+    left: 15vh;
+    border-style: none;
+    border-radius: 7px;
+    font-weight: bold
+}
+
+.ten {
+    border: 1px solid #000;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+}
+
+.ten h1:nth-child(1) {
+    text-align: center;
+    color: rgb(159, 159, 159);
+}
+
+.ten h1:nth-child(2) {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.ten h1 span {
+    margin-left: -330px;
+}
+
+.ten p {
+    color: rgb(174, 174, 174);
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.ele {
+    border: 1px solid #000;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-image: url(./images/pic3.jpg);
+    background-attachment: fixed;
+}
+
+.ele1 {
+    border: 1px solid white;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    width: 24%;
+    background: white;
+    border-radius: 35px;
+    left: 7%;
+
+}
+
+.ele2 {
+    position: absolute;
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    clip-path: circle(50% at 50% 50%);
+    left: 55%;
+    top: 45%;
+}
+
+.ele3 {
+    background: #000;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 51% 52%);
+    height: 80%;
+    margin-top: 10%;
+    margin-left: -40%;
+
+}
+
+.ele2:hover {
+    background-color: green;
+}
+
+.eleA {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 3vh;
+    background-color: orange;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.eleb {
+    margin-left: 15vh;
+}
+
+.eleB {
+    font-size: 26px;
+    margin-left: 15vh;
+    margin-top: 2vh;
+}
+
+.ele p {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.ele img {
+    border-radius: 6vh;
+    margin-top: 7vh;
+    margin-left: 16vh;
+}
+
+.twe {
+    height: 140vh;
+    width: 100%;
+    background-image: url(./images/pic\ 5\ back.jpg);
+    background-repeat: no-repeat;
+    ;
+    position: absolute;
+}
+
+.twe img {
+    position: relative;
+    left: 25vh;
+    height: 130vh;
+}
+
+.twe1 {
+    font-size: 5vh;
+    position: relative;
+    top: -110vh;
+    right: 45vh;
+    float: right;
+}
+
+.twe2 {
+    font-size: 7vh;
+    position: relative;
+    top: -100vh;
+    left: 125vh;
+    float: left;
+}
+
+.twe3 {
+    font-size: 3.3vh;
+    position: relative;
+    left: 54vh;
+    top: -70vh;
+    float: left;
+}
+
+.thir {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 140vh;
+    background-image: url(./images/pic77-removebg-preview.png);
+    background-size: 100% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.thir img {
+    height: 110vh;
+    width: 63vh;
+    float: right;
+    position: relative;
+    right: 15vh;
+    top: -15vh;
+}
+
+.thirA {
+    height: 25vh;
+    width: 40%;
+}
+
+.thirA>h2 {
+    position: relative;
+    left: 20vh;
+    color: rgb(110, 110, 110);
+    font-size: 38px;
+}
+
+.thirA>h3 {
+    position: relative;
+    left: 20vh;
+    top: 6vh;
+    font-size: 54px;
+}
+
+.thir1 {
+    height: 7vh;
+    width: 50vh;
+    position: relative;
+    top: 20vh;
+    left: 15vh;
+}
+
+.thir1A {
+    height: 100%;
+    width: 16%;
+    background-color: aquamarine;
+    border-radius: 9px;
+}
+
+.thir1>h3 {
+    font-size: 20px;
+    position: relative;
+    left: 78px;
+    top: -7vh;
+}
+
+.thir2 {
+    height: 7vh;
+    width: 50vh;
+    position: relative;
+    top: 25vh;
+    left: 15vh;
+}
+
+.thir2A {
+    height: 100%;
+    width: 16%;
+    background-color: orange;
+    border-radius: 9px;
+}
+
+.thir2>h3 {
+    font-size: 20px;
+    position: relative;
+    left: 78px;
+    top: -7vh;
+}
+
+.fortee {
+    height: 90vh;
+    width: 90%;
+    position: absolute;
+    background-image: url(./images/Polygon-1-copy-23.jpg);
+    background-repeat: no-repeat;
+    margin-top: 230vh;
+}
+
+.fortee img {
+    height: 90vh;
+    width: 76vh;
+    position: relative;
+    left: 31vh;
+    top: 14vh;
+}
+
+.forteeA {
+    height: 60vh;
+    width: 50%;
+    position: absolute;
+    left: 60%;
+    margin-top: -80vh;
+}
+
+.forteeA>h2 {
+    position: relative;
+    top: 2vh;
+    font-size: 5vh;
+    color: rgb(110, 110, 110);
+}
+
+.forteeA>h3 {
+    position: relative;
+    font-size: 45px;
+    top: 7vh;
+}
+
+.forteeA>p {
+    position: relative;
+    top: 38vh;
+    font-size: 25px;
+}
+
+.fift {
+    height: 130vh;
+    width: 100%;
+    background-image: url(./images/pic8.jpg);
+    background-attachment: fixed;
+    margin-top: 350vh;
+    position: absolute;
+}
+
+.fiftA {
+    height: 80vh;
+    width: 60vh;
+}
+
+.fiftA>h3 {
+    position: relative;
+    left: 5vh;
+    top: 35vh;
+    font-size: 30px;
+    color: white;
+}
+
+.fiftA>h2 {
+    position: relative;
+    left: 5vh;
+    top: 40vh;
+    font-size: 50px;
+    color: white;
+}
+
+.fiftB {
+    height: 90vh;
+    width: 60vh;
+    background-color: white;
+    position: relative;
+    left: 75vh;
+    top: -50vh;
+    border-radius: 30px;
+}
+
+.fiftC {
+    height: 90vh;
+    width: 60vh;
+    background-color: white;
+    position: relative;
+    left: 140vh;
+    top: -140vh;
+    border-radius: 30px;
+}
+
+.sixte {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Polygon-1-copy-15.jpg);
+    position: absolute;
+    top: 724vh;
+}
+
+.sixte>h6 {
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.sixte>h1 {
+    text-align: center;
+    position: relative;
+    top: 32vh;
+    font-size: 60px;
+}
+
+.sixteA {
+    height: 10vh;
+    width: 55vh;
+    border-radius: 20px;
+    margin-top: 50vh;
+    margin-left: 85vh;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sixteA:hover {
+    background-color: black;
+}
